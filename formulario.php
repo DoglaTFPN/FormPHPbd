@@ -7,16 +7,16 @@
         <body bgcolor="lightgreen">
            <h1>Cadastro</h1>
            <hr>
-            <form action="cadastrado.php" method="GET">
+            <form action="recebendo_dados.php" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
-                    <label><b>Codigo: </b></label> <input type="text" name="codigo" required><br><br>
-                    <label><b>Nome: </b></label> <input type="text" name="nome" required><br><br>
-                    <label><b>Sobrenome: </b></label> <input type="text" name="sobrenome" required><br><br>
-                    <label><b>Email: </b></label> <input type="text" name="email" required><br><br>
-                    <label><b>CPF: </b></label> <input type="text" name="cpf" required><br><br>
-                    <label><b>Usuário: </b></label> <input type="text" name="usuario" required><br><br>
-                    <label><b>Senha: </b></label> <input type="password" name="senha" required><br><br>
+                    <label><b>Codigo: </b></label> <input type="text" name="codigo" maxlength="9" required><br><br>
+                    <label><b>Nome: </b></label> <input type="text" name="nome" maxlength="15" required><br><br>
+                    <label><b>Sobrenome: </b></label> <input type="text" name="sobrenome" maxlength="15" required><br><br>
+                    <label><b>Email: </b></label> <input type="text" name="email" maxlength="50" required><br><br>
+                    <label><b>CPF: </b></label> <input type="text" name="cpf" maxlength="14" required><br><br>
+                    <label><b>Usuário: </b></label> <input type="text" name="usuario" maxlength="16" required><br><br>
+                    <label><b>Senha: </b></label> <input type="password" name="senha" maxlength="50" required><br><br>
                     <input type="radio" name="sexo"checked> <label>Masculino</label><br>
                     <input type="radio" name="sexo"> <label>Feminino</label><br>
                     <input type="radio" name="sexo"> <label>Outro</label>
