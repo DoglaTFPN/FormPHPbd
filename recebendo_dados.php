@@ -5,7 +5,7 @@ $con = mysqli_connect("localhost","root","","Atividade");
 
 	}else{
 
-		$sql ="INSERT INTO Cadastro Values ('$_POST(Codigo)','$_POST(Nome)','$_POST(Sobrenome)','$_POST(Email)','$_POST(CPF)''$_POST(Usuario)','$_POST(Senha)','$_POST(Sexo)'))";
+		$sql ="INSERT INTO Cadastro Values ('$_POST[codigo]','$_POST[nome]','$_POST[sobrenome]','$_POST[email]','$_POST[cpf]','$_POST[sexo]','$_POST[usuario]','$_POST[senha]')";
 
 	if (mysqli_query($con,$sql)) {
 		

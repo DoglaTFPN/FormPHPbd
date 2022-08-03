@@ -17,9 +17,9 @@
                     <label><b>CPF: </b></label> <input type="text" name="cpf" maxlength="14" required><br><br>
                     <label><b>Usuário: </b></label> <input type="text" name="usuario" maxlength="16" required><br><br>
                     <label><b>Senha: </b></label> <input type="password" name="senha" maxlength="50" required><br><br>
-                    <input type="radio" name="sexo"checked> <label>Masculino</label><br>
-                    <input type="radio" name="sexo"> <label>Feminino</label><br>
-                    <input type="radio" name="sexo"> <label>Outro</label>
+                    <input type="radio" name="sexo" value= "M"checked> <label>Masculino</label><br>
+                    <input type="radio" name="sexo" value= "F"> <label>Feminino</label><br>
+                    <input type="radio" name="sexo" value="O"> <label>Outro</label>
                 </fieldset>
                 <br>
                 
